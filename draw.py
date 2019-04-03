@@ -10,7 +10,7 @@ def add_polygon( polygons, x0, y0, z0, x1, y1, z1, x2, y2, z2 ):
     
 def draw_polygons( polygons, screen, color ):
     if len(polygons) < 3:
-        print 'Need at least 3 points to draw a polygon'
+        print('Need at least 3 points to draw a polygon')
         return
 
     point = 0
@@ -176,7 +176,7 @@ def add_curve( points, x0, y0, x1, y1, x2, y2, x3, y3, step, curve_type ):
 
 def draw_lines( matrix, screen, color ):
     if len(matrix) < 2:
-        print 'Need at least 2 points to draw'
+        print('Need at least 2 points to draw')
         return
 
     point = 0
